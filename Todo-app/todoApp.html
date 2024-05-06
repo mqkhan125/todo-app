@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="todoApp.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> Todo Application</h1>
+        </div>
+
+        <div class="input">
+            <input type="text" id="input" placeholder="Enter your todo">
+            
+            <button id="AddTodo">
+                Add Todo
+            </button>
+        </div>
+
+        <div class="output">
+            <ul id="output">
+                <li>
+                    <span>This is First Todo</span>
+                    <button id="listbtn" onclick = "removeTodo(this)"> Remove </button>
+                </li>
+                <li>
+                    <span>This is Second Todo</span>
+                    <button id="listbtn" onclick = "removeTodo(this)"> Remove </button>
+                </li>
+                <li>
+                    <span>This is Third Todo</span>
+                    <button id="listbtn" onclick = "removeTodo(this)"> Remove </button>
+                </li>
+                <li>
+                    <span>This is Four Todo</span>
+                    <button id="listbtn" onclick = "removeTodo(this)"> Remove </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="todoApp.js"></script>
+</body>
+
+</html>
